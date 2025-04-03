@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Лабораторная 1 - Автомобили</title>
+    <script type="module" src="index.js"></script>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+        button {
+            padding: 10px 15px;
+            margin: 5px;
+            cursor: pointer;
+        }
+        #output {
+            margin-top: 20px;
+            padding: 15px;
+            border: 1px solid #ddd;
+            border-radius: 5px;
+            background-color: #f9f9f9;
+        }
+    </style>
+</head>
+<body>
+    <h1>Лабораторная работа №1 - Автомобили</h1>
+    <p>Демонстрация загрузки данных об автомобилях</p>
+    
+    <button id="loadData">Загрузить данные</button>
+    <button id="simulateError">Симулировать ошибку</button>
+    
+    <div id="output">Здесь будет отображена информация об автомобилях...</div>
+    
+    <h3>Проверка обработки ошибок:</h3>
+    <button id="wrongUrl">Неверный URL</button>
+    <button id="serverError">Ошибка сервера</button>
+</body>
+</html>

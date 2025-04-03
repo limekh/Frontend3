@@ -1,0 +1,50 @@
+{
+    "title": "Каталог автомобилей 2025",
+    "available": true,
+    "cars": [
+      {
+        "id": 1,
+        "brand": "Toyota",
+        "model": "Camry",
+        "year": 2023,
+        "price": 35000,
+        "electric": false,
+        "colors": ["white", "black", "silver", "blue"],
+        "specific": {
+            "transmission": "Автоматическая",
+            "horsepower": 249
+        }
+      },
+      {
+        "id": 2,
+        "brand": "Tesla",
+        "model": "Model 3",
+        "year": 2023,
+        "price": 46990,
+        "electric": true,
+        "colors": ["red", "black", "white", "blue"],
+        "specific": {
+            "transmission": "Автоматическая",
+            "horsepower": 201
+        }
+      },
+      {
+        "id": 3,
+        "brand": "BMW",
+        "model": "X5",
+        "year": 2023,
+        "price": 61500,
+        "electric": false,
+        "colors": ["black", "gray", "brown"],
+        "specific": {
+            "transmission": "Механическая 6-ступенчатая",
+            "horsepower": 252
+        }
+      }
+    ],
+    "statistics": {
+      "totalModels": 3,
+      "averagePrice": 47830,
+      "electricCount": 1
+    }
+  }
