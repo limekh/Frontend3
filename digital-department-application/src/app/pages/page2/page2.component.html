@@ -1,0 +1,11 @@
+<h2>Список элементов</h2>
+
+<div *ngIf="error" class="error-message">
+  {{ error }}
+</div>
+
+<div class="item-list">
+  <div *ngFor="let item of items$ | async" class="item">
+    {{ item.name }} - {{ item.price }}
+  </div>
+</div>
